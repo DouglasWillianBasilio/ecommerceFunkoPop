@@ -17,17 +17,18 @@
   <section class="banner"></section>
   <nav class="wrap">
     <ul class="nav">
-      <li><button class="btn btn-front" href="#" id="btnFiltrarLivrosFront" value="front-end">Funko de FILMES</button>
+      <li><button class="btn btn-front" href="#" id="btnFiltrarLivrosFront" value="Filmes">Funko de FILMES</button>
       </li>
-      <li><button class="btn btn-back" href="#" id="btnFiltrarLivrosBack" value="back-end">Funko de SERIES</button>
+      <li><button class="btn btn-back" href="#" id="btnFiltrarLivrosBack" value="Series">Funko de SERIES</button>
       </li>
-      <li><button class="btn btn-dados" href="#" id="btnFiltrarLivrosDados" value="dados">Funko de ANIMES</button></li>
-      <li><button class="btn btn-disponiveis" href="#" id="btnLivrosDisponiveis">Funko de GAMES</button></li>
-      <li><button class="btn btn-ordenacao" href="#" id="btnOrdenarPorPreco">ORDENAR POR PREÇO</button></li>
+      <li><button class="btn btn-dados" href="#" id="btnFiltrarLivrosDados" value="Anime">Funko de ANIMES</button></li>
+      <li><button class="btn btn-disponiveis" href="#" id="btnLivrosDisponiveis" value="Games">Funko de GAMES</button></li>
+      <li><button class="btn btn-ordenacao" href="#" id="btnOrdenarPorPreco" >ORDENAR POR PREÇO</button></li>
+      
     </ul>
   </nav>
   <section class="livros wrap" id="livros">
-    <!---->
+    <!--
     <div class="livro">
       <img class="livro__imagens" src="imagens/thor.png" alt="Funko Thor" />
       <h2 class="livro__titulo">
@@ -42,7 +43,7 @@
 
     <div class="livro">
       <img class="livro__imagens indisponivel" src="imagens/deadpool-larp.png"
-        alt="Funko DeadPool+" />
+        alt="Funko DeadPool" />
       <h2 class="livro__titulo">
         FUNKO POP DEADPOOL LARP #780
       </h2>
@@ -280,7 +281,7 @@
     </div>
 
     <div class="livro">
-      <img class="livro__imagens" src="imagens/horsea.png" alt="Funko Horseai" />
+      <img class="livro__imagens" src="imagens/horsea.png" alt="Funko Horsea" />
       <h2 class="livro__titulo">
         FUNKO POP POKÉMON HORSEA
       </h2>
@@ -292,11 +293,11 @@
       </div>
     </div>
     
-<!---->
+-->
   </section>
   <section id="valor_total_livros_disponiveis">
     <div class="livros__disponiveis">
-      <p>Todos os livros disponíveis por R$ <span id="valor">299,00</span></p>
+      <p>Todos os Funks disponíveis por R$ <span id="valor">299,00</span></p>
     </div>
   </section>
 
@@ -309,6 +310,7 @@
   <script src="app/metodoForEach.js"></script>  
   <script src="app/metodoMap.js"></script>
   <script src="app/metodoFilter.js"></script>
+  <script src="app/metodoSort.js"></script>
 </body>
 
 </html>

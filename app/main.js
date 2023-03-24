@@ -1,7 +1,6 @@
 let livros = []
-const endpointDaAPI = 'https://guilhermeonrails.github.io/casadocodigo/livros.json'
+const endpointDaAPI = 'https://douglaswillianbasilio.github.io/casadocodigo/livros.json'
 getBuscasLivrosDaAPI()
-
 
 async function getBuscasLivrosDaAPI() {
     const res = await fetch(endpointDaAPI)
