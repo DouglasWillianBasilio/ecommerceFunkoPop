@@ -1,12 +1,12 @@
-let livros = []
+let funkos = []
 const endpointDaAPI = 'https://douglaswillianbasilio.github.io/casadocodigo/livros.json'
-getBuscasLivrosDaAPI()
+getBuscasFunkoDaAPI()
 
-async function getBuscasLivrosDaAPI() {
+async function getBuscasFunkoDaAPI() {
     const res = await fetch(endpointDaAPI)
-    livros = await res.json()
-    let livrosComDesconto = aplicarDesconto(livros)
-    exibirOsLivrosNaTela(livrosComDesconto)
+    funkos = await res.json()
+    let funkoComDesconto = aplicarDesconto(funkos)
+    exibirOsFunkosNaTela(funkoComDesconto)
 }
 
 
