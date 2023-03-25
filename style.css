@@ -29,7 +29,7 @@ body {
 
 
 .banner h1{
-  background-color: var(--text-description-color);
+  background-image: linear-gradient(to right, #cf2406d0, #F27405);
   color: var(--text-price-color);
   font-size: 6rem;
   font-weight: bolder;
@@ -39,7 +39,7 @@ body {
 }
 
 .banner h2 {
-  background-color: var(--text-description-color);
+  background-image: linear-gradient(to right, #cf2406d0, #F27405);
   color: var(--bg-color);
   font-size: 1.5rem;
   font-weight: bold;
