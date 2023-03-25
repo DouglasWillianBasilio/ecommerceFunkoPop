@@ -28,7 +28,7 @@ body {
 
 
 
-h1{
+.banner h1{
   background-color: var(--text-description-color);
   color: var(--text-price-color);
   font-size: 6rem;
@@ -38,7 +38,7 @@ h1{
   
 }
 
-h2 {
+.banner h2 {
   background-color: var(--text-description-color);
   color: var(--bg-color);
   font-size: 1.5rem;
