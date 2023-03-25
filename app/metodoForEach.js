@@ -2,7 +2,7 @@ const elementoParaInserirFunkos = document.getElementById('funkos')
 const elementoComValorTotalDeFunkosDisponiveis = document.getElementById('valor_total_funkos_disponiveis')
 
 function exibirOsFunkosNaTela(listaDeFunkos){
-    elementoComValorTotalDeFunkosDisponiveis.innerHTML = ""
+    elementoComValorTotalDeFunkosDisponiveis.innerHTML = ''
     elementoParaInserirFunkos.innerHTML = ''
     listaDeFunkos.forEach(funko => {
         elementoParaInserirFunkos.innerHTML += `

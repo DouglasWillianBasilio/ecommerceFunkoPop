@@ -68,6 +68,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
+}
+
+.funko:hover{
+  transform: translateY(-5px);
 }
 
 .funko {
@@ -77,6 +82,7 @@ body {
   justify-content: space-between;
   height: 644px;
   margin-bottom: 1rem;
+  transition: transform 0.5s;
 }
 
 .indisponivel {
