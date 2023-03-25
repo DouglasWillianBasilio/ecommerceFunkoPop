@@ -58,6 +58,21 @@ body {
   font-weight: 400;
 }
 
+.funko__preco {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  transition: ease all 1s;
+}
+
+.funko__preco:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--text-price-color);
+}
+
+
 .btn:hover {
   color: #cecdcd;
   border-radius: 10px;
