@@ -28,11 +28,23 @@ body {
 
 
 
-.banner {
-  background-image: url('/imagens/Banner-1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 478px;
+h1{
+  background-color: var(--text-description-color);
+  color: var(--text-price-color);
+  font-size: 6rem;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 2px 10px black;
+  
+}
+
+h2 {
+  background-color: var(--text-description-color);
+  color: var(--bg-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .nav {
